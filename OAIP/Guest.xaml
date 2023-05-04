@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Guest" Height="700" Width="800" MinHeight="700" MinWidth="800" MaxHeight="800" MaxWidth="700" Background="LightYellow">
     <Grid>
-        <DataGrid Name="dataGrid3" SelectionChanged="dataGrid3_SelectionChanged" Margin="10,43,10,10" />
+        <DataGrid Name="dataGrid3" Margin="10,43,10,10" />
         <Button Content="Назад" Background="CadetBlue" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top" Width="112" Height="29" Click="Button_Click">
             <Button.Effect>
                 <DropShadowEffect/>
